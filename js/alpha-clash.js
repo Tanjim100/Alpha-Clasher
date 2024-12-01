@@ -131,6 +131,7 @@ function gameOver()
     hideElementById('play-ground');
     showElementById('final-score');
 
+
     // get the final score 
     const lastScore = getTextElementValueById('current-score');
     setTextElementValueById('game-end', lastScore);
@@ -141,3 +142,8 @@ function gameOver()
     // console.log('last alphabet: ', lastAlpha.innerText);
     removebackgroundColor(lastAlpha.innerText);
 }
+
+
+
+
+// testing another push
